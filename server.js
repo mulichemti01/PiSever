@@ -7,8 +7,8 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Email credentials from environment variables
-const userEmail = process.env.USER_EMAIL;
-const pass = process.env.USER_PASS;
+const userEmail = "mulichemti01@gmail.com";
+const pass = "wvqemmilpkajbvaq";
 
 app.use(express.json());
 app.use(cors());
